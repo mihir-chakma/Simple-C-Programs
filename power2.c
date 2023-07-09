@@ -7,9 +7,9 @@ int main(void) {
 
   printf("\t  n  \t    2^n\n");
   printf("\t================\n");
-  for (n=0; n<=N; n++) {
+  for (n = 0; n <= N; n++) {
     printf("\t%3d \t %6d\n", n, val); 
-    val = 2*val;
+    val = 2 * val;
   }
   return 0;
 }
